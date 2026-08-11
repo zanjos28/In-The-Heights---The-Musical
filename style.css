@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.welcome-box{
+    width:400px;
+    margin:150px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+header{
+    background:#1e88e5;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    background:#333;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+
+main{
+    padding:30px;
+}
+/* =========================================
+   ENGLISH AND SPANISH WEBSITE
+   ========================================= */
+
+.language-page {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("ITH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+
+/* Header */
+
+.language-page header {
+    background: rgba(150, 45, 15, 0.90);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.language-page header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.language-page header p {
+    margin: 8px 0 0;
+}
+
+
+/* Main area */
+
+.language-page main {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0;
+}
+
+
+/* Main dropdown buttons */
+
+.language-page .dropdown-button {
+    width: 100%;
+    padding: 18px;
+
+    margin-top: 15px;
+
+    background: #c94f20;
+    color: white;
+
+    border: 2px solid #f08a32;
+    border-radius: 8px;
+
+    font-size: 21px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.language-page .dropdown-button:hover {
+    background: #e06425;
+}
+
+
+/* Information that drops down */
+
+.language-page .dropdown-content {
+    display: none;
+
+    background: rgba(255, 235, 215, 0.96);
+    color: #4a1c0b;
+
+    padding: 25px;
+
+    border-left: 5px solid #c94f20;
+    border-right: 5px solid #c94f20;
+    border-bottom: 3px solid #c94f20;
+
+    border-radius: 0 0 8px 8px;
+
+    text-align: left;
+}
+
+
+/* Act I and Act II buttons */
+
+.language-page .act-button {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 15px;
+
+    background: #e87522;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.language-page .act-button:hover {
+    background: #f28c28;
+}
+
+
+/* Information inside Act I and Act II */
+
+.language-page .act-content {
+    display: none;
+
+    background: #fff4e8;
+    color: #4a1c0b;
+
+    padding: 20px;
+
+    border-left: 4px solid #c94f20;
+
+    text-align: left;
+}
+
+
+/* Titles inside information */
+
+.language-page .dropdown-content h2 {
+    color: #a83d13;
+}
+
+.language-page .act-content h3 {
+    color: #c94f20;
+}
+
+
+/* Paragraphs */
+
+.language-page .dropdown-content p,
+.language-page .act-content p {
+    line-height: 1.6;
+}
